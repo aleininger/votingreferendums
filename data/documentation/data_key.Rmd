@@ -1,0 +1,18 @@
+---
+title: "Referendums Data Key"
+author: "Arndt Leininger"
+date: "December 11, 2014"
+output: html_document
+---
+```{r, echo=FALSE}
+#load packages
+library("knitr")
+```
+
+
+```{r, echo=FALSE}
+# produces a table of all variables
+setwd('C:/Users/el1/Documents/votingreferendums/data/documentation')  # GESIS
+dataKey <- read.csv('dataKey.csv')
+kable(dataKey)
+```
