@@ -1,7 +1,8 @@
 Data Sources
 ============
+ProjetsD_104.dta: FORS
 
-abstimmungsliste.csv
+abstimmungsliste.csv: http://swissvotes.ch/db/votes/listing
 
-win_datasheet.csv 
+win_datasheet.csv: http://swissvotes.ch/page/integralerdatensatz 
 

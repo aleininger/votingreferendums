@@ -32,6 +32,13 @@ d[d$projetx=="Bg Arbeitsgesetz" & d$annee==2005,"projetx"] <-
 
 d$projetx <- as.factor(d$projetx)
 
+################################################################################
+# Data.Key
+################################################################################
+
+source('data/documentation/datakey.R')  # creates a complete datakey & subset of relevant vars
+# also saves these datakeys in files
+
 
 ################################################################################
 # Addings variables
@@ -47,12 +54,7 @@ d <- within(d, {
              (a02x == 'Nein' & motcfx == 'Ja')
 })
   
-################################################################################
-# Data.Key
-################################################################################
 
-source('data/documentation/datakey.R')  # creates a complete datakey & subset of relevant vars
-# also saves these datakeys in files
 
 ################################################################################
 # Save Project
