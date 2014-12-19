@@ -1,5 +1,5 @@
 ---
-title: "Referendums Data Key"
+title: "Referendums Data Key: Relevant Variables"
 author: "Arndt Leininger"
 date: "December 11, 2014"
 output: html_document
@@ -14,5 +14,5 @@ library("knitr")
 # produces a table of all variables
 setwd('C:/Users/el1/Documents/votingreferendums/data/documentation')  # GESIS
 dataKeySub <- read.csv('data_key_sub.csv')
-kable(dataKeySub)
+kable(dataKeySub[,1:3])
 ```

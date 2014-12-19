@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>inteloca</title>
+</head>
+<body bgcolor="#ffffff" background="../bg2.gif">
+<nobr><h1><img src="../logo.gif" alt="DataDoxa" align="middle">inteloca</h1></nobr>
+<table align="left" border="0" cellspacing="2" cellpadding="4">
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Name:</b></td>
+   <td>inteloca</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kategorie:</b></td>
+   <td><a href="../cat10.htm">X. Sozio-ökonomischer Status</a></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Typ:</b></td>
+   <td>Standardizierte Rekodierte Variable</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englisches Etikett:</b></td>
+   <td>Local integration</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsches Etikett:</b></td>
+   <td>Lokale Integration</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französisches Etikett:</b></td>
+   <td>Intégration locale</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsche Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kommentar:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt von:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt:</b></td>
+   <td>
+    <a href="./s19v1.htm">s19v1</a><br>
+    <a href="./s19v2.htm">s19v2</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Rekodierung:</b></td>
+   <td><pre>
+COMPUTE inteloca=s19v1.
+COMPUTE dummy=s19v2.
+RECODE dummy
+(1=1)
+(2,3=2)
+(9=9).
+IF MISSING (inteloca) inteloca=dummy.</pre></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Wertetiketten:</b></td>
+   <td>
+    1   5 Jahre oder weniger<br>
+    2   Mehr als 5 Jahre<br>
+    9   k.A.<br></td>
+  </tr>
+  </table>
+</body>
+</html>

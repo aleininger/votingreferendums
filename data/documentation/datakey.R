@@ -5,7 +5,7 @@
 # library(magrittr)
 
 # produce a data key
-dataKey <- data.frame(varName=names(d), varLabel=attr(d, "var.labels"), 
+dataKey <- data.frame(varName=names(d[,1:174]), varLabel=attr(d, "var.labels"), 
                       stringsAsFactors = F)
 write.csv(dataKey, 'data/documentation/dataKey.csv')
 
@@ -16,29 +16,46 @@ write.csv(dataKey, 'data/documentation/dataKey.csv')
 # create a data.frame that contains all variables that we will probably use in
 # the initiatal analysis
 relevantVars <- c(1,   # Stimmverhalten der Teilnehmenden
-                  2,   # Stimmverhalten der Nicht-Teilnehmenden
-                  27,  # Anzahl leere Stimmen (Was ist das genau?)
-                  28,  # cannonx - Anzahl Kantone, die die Vorlage abgelehnt haben
-                  29,  # canouix - Anzahl Kantone, die die Vorlage angenommen haben
-                  31,  # dannonx - Anzahl Halbkantone, die die Vorlage abgelehnt haben
-                  32,  # danouix - Anzahl Halbkantone, die die Vorlage angenommen haben
+                  3,   # a31x - Kenntnis des Vorlagentitels
+                  4,   # a32x - Kenntnis der Vorlage in den Einzelheiten
+                  6,   # a34x -
+                  7,   # a35x - 
+                  8,   # a84x - 
+                  9,
+                  10,
+                  11,
+                  12,
+                  30,  # conx - Kenntnisskala (0-2) f die Vorlage, basiert auf
+                       # a31x und a32x
                   33,  # decx - Abstimmungsentscheid zur Vorlage
+                  34,
                   36,  # motcfx   Empfehlung des Bundesrates
-                  51,  # nonx - Anzahl Nein-Stimmen in Prozent
-                  52,  # nulsx - Ung\xfcltige Stimmen
-                  53,  # ouix - Anzahl Ja-Stimmen in Prozent
                   54,  # partx - Teilnahme in Prozent
                   55,  # projetx - Zur Abstimmung vorgelegte Vorlage
                   56,  # themex - Thema der Vorlage
                   57,  # typex - Art der Vorlage
                   58,  # a01 - Teilnahme an Abstimmung
                   59,  # a04 - Abstimmungsmodus
+                  60,
+                  61,
+                  62,
+                  76,
+                  77,
+                  78,
+                  80,
                   82,  # annee - Jahr der Abstimmung
+                  88,
                   83,  # canton - Kanton
                   91,  # id - Identifizierungsnummer
                   93,  # jour - Tag der Abstimmung
                   117, # nombre - Anzahl der zur Abstimmung vorgelegten Vorlagen
+                  120, # p02 - Parteiidentifizierung
+                  121,
+                  123,
+                  127,
                   129, # regiling - Sprachregionen
+                  130,
+                  143, # scrutin - Nummer der standardisierten Umfrage
                   144, # sexe - Geschlecht des Befragten
                   169  # weight - Weighting variable
 )

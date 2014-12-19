@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>decx1</title>
+</head>
+<body bgcolor="#ffffff" background="../bg2.gif">
+<nobr><h1><img src="../logo.gif" alt="DataDoxa" align="middle">decx1</h1></nobr>
+<table align="left" border="0" cellspacing="2" cellpadding="4">
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Name:</b></td>
+   <td>decx1</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kategorie:</b></td>
+   <td><a href="../cat2.htm">II. Beteiligung und Entscheidung</a></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Typ:</b></td>
+   <td>Standardizierte Rekodierte Variable</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englisches Etikett:</b></td>
+   <td>Vote decision for the project</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsches Etikett:</b></td>
+   <td>Abstimmungsentscheid zur Vorlage</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französisches Etikett:</b></td>
+   <td>Décision de vote pour le projet</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsche Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kommentar:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt von:</b></td>
+   <td>
+    <a href="./decx.htm">decx</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt:</b></td>
+   <td>
+    <a href="./a01.htm">a01</a><br>
+    <a href="./a02x1.htm">a02x1</a><br>
+    <a href="./a03x1.htm">a03x1</a><br>
+    <a href="./scrutin.htm">scrutin</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Rekodierung:</b></td>
+   <td><pre>
+COMPUTE decx1=a02x1 .
+IF ((scrutin<69) AND (a01=0)) decx1=a03x1 .</pre></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Wertetiketten:</b></td>
+   <td>
+    1   Ja<br>
+    2   Leer<br>
+    3   Nein<br>
+    4   wn<br>
+    9   k.A.<br></td>
+  </tr>
+  </table>
+</body>
+</html>

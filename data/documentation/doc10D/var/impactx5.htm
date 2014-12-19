@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>impactx5</title>
+</head>
+<body bgcolor="#ffffff" background="../bg2.gif">
+<nobr><h1><img src="../logo.gif" alt="DataDoxa" align="middle">impactx5</h1></nobr>
+<table align="left" border="0" cellspacing="2" cellpadding="4">
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Name:</b></td>
+   <td>impactx5</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kategorie:</b></td>
+   <td><a href="../cat7.htm">VII. Betroffenheit und Wichtigkeit der Abstimmung</a></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Typ:</b></td>
+   <td>Standardizierte Rekodierte Variable</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englisches Etikett:</b></td>
+   <td>Estimation of the impact of the project</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsches Etikett:</b></td>
+   <td>Schätzung der Auswirkung der Vorlage</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französisches Etikett:</b></td>
+   <td>Estimation de l_impact du projet</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsche Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kommentar:</b></td>
+   <td>construite avec les a82 jusqu'à la Vox 48, puis avec les a89, pour obtenir une variable convrant toutes les enquêtes.</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt von:</b></td>
+   <td>
+    <a href="./impactx.htm">impactx</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt:</b></td>
+   <td>
+    <a href="./a82x5.htm">a82x5</a><br>
+    <a href="./a89x5.htm">a89x5</a><br>
+    <a href="./scrutin.htm">scrutin</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Rekodierung:</b></td>
+   <td><pre>
+COMPUTE impactx5=a89x5.
+IF (scrutin<49) impactx5=a82x5.</pre></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Wertetiketten:</b></td>
+   <td>
+    0   Kein Einfluss<br>
+    5   Mittlerer Einfluss<br>
+    10   Sehr grosser Einfluss<br>
+    98   wn<br>
+    99   k.A.<br></td>
+  </tr>
+  </table>
+</body>
+</html>

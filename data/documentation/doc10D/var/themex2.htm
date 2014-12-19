@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>themex2</title>
+</head>
+<body bgcolor="#ffffff" background="../bg2.gif">
+<nobr><h1><img src="../logo.gif" alt="DataDoxa" align="middle">themex2</h1></nobr>
+<table align="left" border="0" cellspacing="2" cellpadding="4">
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Name:</b></td>
+   <td>themex2</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kategorie:</b></td>
+   <td><a href="../cat1.htm">I. Meinungsumfragen, Abstimmungen und Vorlagen</a></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Typ:</b></td>
+   <td>Standardizierte Rekodierte Variable</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englisches Etikett:</b></td>
+   <td>Project theme</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsches Etikett:</b></td>
+   <td>Thema der Vorlage</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französisches Etikett:</b></td>
+   <td>Thème du projet</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsche Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kommentar:</b></td>
+   <td>La valeur -99 est définie comme valeur manquante pour des raisons techniques liées à la fabrication des fichiers séparés destinés à la publication Nesstar. Ne pas changer cette valeur tant que cette fabrication nécessite les syntaxes SPSS "Nesscrut*" et "Nesproj*"!</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt von:</b></td>
+   <td>
+    <a href="./themex.htm">themex</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt:</b></td>
+   <td>
+    <a href="./projetx2.htm">projetx2</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Rekodierung:</b></td>
+   <td><pre>
+Compute themex2=-99.
+if any (projetx2, ) themex2=1.
+if any (projetx2, 222, 322, 682, 852, 912) themex2=2.
+if any (projetx2, ) themex2=5.
+if any (projetx2, 742, 812) themex2=11.
+if any (projetx2, 382, 422, 492, 612) themex2=13.
+if any (projetx2, 392, 412) themex2=22.
+if any (projetx2, 192, 232, 402, 712, 822) themex2=23.
+if any (projetx2, 442) themex2=24.
+if any (projetx2, 662, 832) themex2=25.
+if any (projetx2, ) themex2=26.
+if any (projetx2, ) themex2=27.
+if any (projetx2, 302, 532) themex2=31.
+if any (projetx2, 252) themex2=32.
+if any (projetx2, 432) themex2=33.
+if any (projetx2, 242) themex2=34.
+if any (projetx2, ) themex2=41.
+if any (projetx2, 542, 872) themex2=42.
+if any (projetx2, 772) themex2=43.
+if any (projetx2, 462, 502, 582, 592, 692) themex2=53.
+if any (projetx2, 922) themex2=62.
+if any (projetx2, 352, 572, 722, 752, 842) themex2=63.
+if any (projetx2, 342, 552, 732, 802) themex2=66.
+if any (projetx2, 622, 792) themex2=67.
+if any (projetx2, ) themex2=68.
+if any (projetx2, 362, 602, 762, 892) themex2=71.
+if any (projetx2, 152, 182) themex2=81.
+if any (projetx2, 272) themex2=82.
+if any (projetx2, 562, 642, 652) themex2=85.
+if any (projetx2, 262, 482) themex2=91.
+if any (projetx2, 512, 632, 782, 862) themex2=92.
+if any (projetx2, ) themex2=93.
+if any (projetx2, 212, 522) themex2=94.</pre></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Wertetiketten:</b></td>
+   <td>
+    -99   Sysmiss<br>
+    1   Aussenpolitik<br>
+    2   Immigration<br>
+    5   Europäische Union<br>
+    11   Verteidigung<br>
+    13   Frieden<br>
+    22   Verkehrspolitik<br>
+    23   Energiepolitik<br>
+    24   Umwelt<br>
+    25   Wohnungswesen<br>
+    26   Raumplanung<br>
+    27   Öffentliche Dienste<br>
+    31   Kultur<br>
+    32   Bildung<br>
+    33   Forschung<br>
+    34   Medien<br>
+    41   Strafrecht<br>
+    42   Rechte<br>
+    43   Abtreibung<br>
+    53   Institutionen<br>
+    62   Familienpolitik<br>
+    63   Pension<br>
+    66   Gesundheit<br>
+    67   Arbeitslosigkeit<br>
+    68   Drogen<br>
+    71   Arbeitsmarkt<br>
+    81   KonsumentInnenschutz<br>
+    82   Wirtschaftsordnung<br>
+    85   Landwirtschaft<br>
+    91   Subventionen<br>
+    92   Finanzen<br>
+    93   Steuern<br>
+    94   Steuern auf den Verkehr<br></td>
+  </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,294 @@
+<html>
+<head>
+<title>themex1</title>
+</head>
+<body bgcolor="#ffffff" background="../bg2.gif">
+<nobr><h1><img src="../logo.gif" alt="DataDoxa" align="middle">themex1</h1></nobr>
+<table align="left" border="0" cellspacing="2" cellpadding="4">
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Name:</b></td>
+   <td>themex1</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kategorie:</b></td>
+   <td><a href="../cat1.htm">I. Meinungsumfragen, Abstimmungen und Vorlagen</a></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Typ:</b></td>
+   <td>Standardizierte Rekodierte Variable</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englisches Etikett:</b></td>
+   <td>Project theme</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsches Etikett:</b></td>
+   <td>Thema der Vorlage</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französisches Etikett:</b></td>
+   <td>Thème du projet</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Englische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Deutsche Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Französische Beschreibung:</b></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Kommentar:</b></td>
+   <td>La valeur -99 est définie comme valeur manquante pour des raisons techniques liées à la fabrication des fichiers séparés destinés à la publication Nesstar. Ne pas changer cette valeur tant que cette fabrication nécessite les syntaxes SPSS "Nesscrut*" et "Nesproj*"!</td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt von:</b></td>
+   <td>
+    <a href="./themex.htm">themex</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Benötigt:</b></td>
+   <td>
+    <a href="./projetx1.htm">projetx1</a><br></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Rekodierung:</b></td>
+   <td><pre>
+Compute themex1=-99.
+if any (projetx1, 291, 441, 531, 761) themex1=1.
+if any (projetx1, 321, 601, 681, 791, 851) themex1=2.
+if any (projetx1, 471, 611, 701, 731, 871, 881, 921) themex1=5.
+if any (projetx1, 741, 811) themex1=11.
+if any (projetx1, 491) themex1=13.
+if any (projetx1, 341, 351, 381, 391, 461, 651, 831) themex1=22.
+if any (projetx1, 231, 401, 711) themex1=23.
+if any (projetx1, ) themex1=24.
+if any (projetx1, 821) themex1=25.
+if any (projetx1, ) themex1=26.
+if any (projetx1, ) themex1=27.
+if any (projetx1, 301, 581) themex1=31.
+if any (projetx1, 271, 901) themex1=32.
+if any (projetx1, 281, 631) themex1=33.
+if any (projetx1, ) themex1=34.
+if any (projetx1, 501) themex1=41.
+if any (projetx1, 151) themex1=42.
+if any (projetx1, 261, 771) themex1=43.
+if any (projetx1, 411, 661, 671, 691, 801) themex1=53.
+if any (projetx1, ) themex1=62.
+if any (projetx1, 571, 721, 841, 911) themex1=63.
+if any (projetx1, 241, 431, 551) themex1=66.
+if any (projetx1, ) themex1=67.
+if any (projetx1, 621) themex1=68.
+if any (projetx1, 251) themex1=71.
+if any (projetx1, 181, 891) themex1=81.
+if any (projetx1, 221) themex1=82.
+if any (projetx1, 361, 371, 541, 561, 591) themex1=85.
+if any (projetx1, 161, 421, 511, 751, 781) themex1=91.
+if any (projetx1, 861 ) themex1=92.
+if any (projetx1, ) themex1=93.
+if any (projetx1, 191, 211, 481, 521, 641) themex1=94.Compute themex1=-99.
+if any (projetx1, 291, 441, 531, 761) themex1=1.
+if any (projetx1, 321, 601, 681, 791, 851) themex1=2.
+if any (projetx1, 471, 611, 701, 731, 871, 881, 921) themex1=5.
+if any (projetx1, 741, 811) themex1=11.
+if any (projetx1, 491) themex1=13.
+if any (projetx1, 341, 351, 381, 391, 461, 651, 831) themex1=22.
+if any (projetx1, 231, 401, 711) themex1=23.
+if any (projetx1, ) themex1=24.
+if any (projetx1, 821) themex1=25.
+if any (projetx1, ) themex1=26.
+if any (projetx1, ) themex1=27.
+if any (projetx1, 301, 581) themex1=31.
+if any (projetx1, 271, 901) themex1=32.
+if any (projetx1, 281, 631) themex1=33.
+if any (projetx1, ) themex1=34.
+if any (projetx1, 501) themex1=41.
+if any (projetx1, 151) themex1=42.
+if any (projetx1, 261, 771) themex1=43.
+if any (projetx1, 411, 661, 671, 691, 801) themex1=53.
+if any (projetx1, ) themex1=62.
+if any (projetx1, 571, 721, 841, 911) themex1=63.
+if any (projetx1, 241, 431, 551) themex1=66.
+if any (projetx1, ) themex1=67.
+if any (projetx1, 621) themex1=68.
+if any (projetx1, 251) themex1=71.
+if any (projetx1, 181, 891) themex1=81.
+if any (projetx1, 221) themex1=82.
+if any (projetx1, 361, 371, 541, 561, 591) themex1=85.
+if any (projetx1, 161, 421, 511, 751, 781) themex1=91.
+if any (projetx1, 861 ) themex1=92.
+if any (projetx1, ) themex1=93.
+if any (projetx1, 191, 211, 481, 521, 641) themex1=94.Compute themex1=-99.
+if any (projetx1, 291, 441, 531, 761) themex1=1.
+if any (projetx1, 321, 601, 681, 791, 851) themex1=2.
+if any (projetx1, 471, 611, 701, 731, 871, 881, 921) themex1=5.
+if any (projetx1, 741, 811) themex1=11.
+if any (projetx1, 491) themex1=13.
+if any (projetx1, 341, 351, 381, 391, 461, 651, 831) themex1=22.
+if any (projetx1, 231, 401, 711) themex1=23.
+if any (projetx1, ) themex1=24.
+if any (projetx1, 821) themex1=25.
+if any (projetx1, ) themex1=26.
+if any (projetx1, ) themex1=27.
+if any (projetx1, 301, 581) themex1=31.
+if any (projetx1, 271, 901) themex1=32.
+if any (projetx1, 281, 631) themex1=33.
+if any (projetx1, ) themex1=34.
+if any (projetx1, 501) themex1=41.
+if any (projetx1, 151) themex1=42.
+if any (projetx1, 261, 771) themex1=43.
+if any (projetx1, 411, 661, 671, 691, 801) themex1=53.
+if any (projetx1, ) themex1=62.
+if any (projetx1, 571, 721, 841, 911) themex1=63.
+if any (projetx1, 241, 431, 551) themex1=66.
+if any (projetx1, ) themex1=67.
+if any (projetx1, 621) themex1=68.
+if any (projetx1, 251) themex1=71.
+if any (projetx1, 181, 891) themex1=81.
+if any (projetx1, 221) themex1=82.
+if any (projetx1, 361, 371, 541, 561, 591) themex1=85.
+if any (projetx1, 161, 421, 511, 751, 781) themex1=91.
+if any (projetx1, 861 ) themex1=92.
+if any (projetx1, ) themex1=93.
+if any (projetx1, 191, 211, 481, 521, 641) themex1=94.Compute themex1=-99.
+if any (projetx1, 291, 441, 531, 761) themex1=1.
+if any (projetx1, 321, 601, 681, 791, 851) themex1=2.
+if any (projetx1, 471, 611, 701, 731, 871, 881, 921) themex1=5.
+if any (projetx1, 741, 811) themex1=11.
+if any (projetx1, 491) themex1=13.
+if any (projetx1, 341, 351, 381, 391, 461, 651, 831) themex1=22.
+if any (projetx1, 231, 401, 711) themex1=23.
+if any (projetx1, ) themex1=24.
+if any (projetx1, 821) themex1=25.
+if any (projetx1, ) themex1=26.
+if any (projetx1, ) themex1=27.
+if any (projetx1, 301, 581) themex1=31.
+if any (projetx1, 271, 901) themex1=32.
+if any (projetx1, 281, 631) themex1=33.
+if any (projetx1, ) themex1=34.
+if any (projetx1, 501) themex1=41.
+if any (projetx1, 151) themex1=42.
+if any (projetx1, 261, 771) themex1=43.
+if any (projetx1, 411, 661, 671, 691, 801) themex1=53.
+if any (projetx1, ) themex1=62.
+if any (projetx1, 571, 721, 841, 911) themex1=63.
+if any (projetx1, 241, 431, 551) themex1=66.
+if any (projetx1, ) themex1=67.
+if any (projetx1, 621) themex1=68.
+if any (projetx1, 251) themex1=71.
+if any (projetx1, 181, 891) themex1=81.
+if any (projetx1, 221) themex1=82.
+if any (projetx1, 361, 371, 541, 561, 591) themex1=85.
+if any (projetx1, 161, 421, 511, 751, 781) themex1=91.
+if any (projetx1, 861 ) themex1=92.
+if any (projetx1, ) themex1=93.
+if any (projetx1, 191, 211, 481, 521, 641) themex1=94.Compute themex1=-99.
+if any (projetx1, 291, 441, 531, 761) themex1=1.
+if any (projetx1, 321, 601, 681, 791, 851) themex1=2.
+if any (projetx1, 471, 611, 701, 731, 871, 881, 921) themex1=5.
+if any (projetx1, 741, 811) themex1=11.
+if any (projetx1, 491) themex1=13.
+if any (projetx1, 341, 351, 381, 391, 461, 651, 831) themex1=22.
+if any (projetx1, 231, 401, 711) themex1=23.
+if any (projetx1, ) themex1=24.
+if any (projetx1, 821) themex1=25.
+if any (projetx1, ) themex1=26.
+if any (projetx1, ) themex1=27.
+if any (projetx1, 301, 581) themex1=31.
+if any (projetx1, 271, 901) themex1=32.
+if any (projetx1, 281, 631) themex1=33.
+if any (projetx1, ) themex1=34.
+if any (projetx1, 501) themex1=41.
+if any (projetx1, 151) themex1=42.
+if any (projetx1, 261, 771) themex1=43.
+if any (projetx1, 411, 661, 671, 691, 801) themex1=53.
+if any (projetx1, ) themex1=62.
+if any (projetx1, 571, 721, 841, 911) themex1=63.
+if any (projetx1, 241, 431, 551) themex1=66.
+if any (projetx1, ) themex1=67.
+if any (projetx1, 621) themex1=68.
+if any (projetx1, 251) themex1=71.
+if any (projetx1, 181, 891) themex1=81.
+if any (projetx1, 221) themex1=82.
+if any (projetx1, 361, 371, 541, 561, 591) themex1=85.
+if any (projetx1, 161, 421, 511, 751, 781) themex1=91.
+if any (projetx1, 861 ) themex1=92.
+if any (projetx1, ) themex1=93.
+if any (projetx1, 191, 211, 481, 521, 641) themex1=94.Compute themex1=-99.
+if any (projetx1, 291, 441, 531, 761) themex1=1.
+if any (projetx1, 321, 601, 681, 791, 851) themex1=2.
+if any (projetx1, 471, 611, 701, 731, 871, 881, 921) themex1=5.
+if any (projetx1, 741, 811) themex1=11.
+if any (projetx1, 491) themex1=13.
+if any (projetx1, 341, 351, 381, 391, 461, 651, 831) themex1=22.
+if any (projetx1, 231, 401, 711) themex1=23.
+if any (projetx1, ) themex1=24.
+if any (projetx1, 821) themex1=25.
+if any (projetx1, ) themex1=26.
+if any (projetx1, ) themex1=27.
+if any (projetx1, 301, 581) themex1=31.
+if any (projetx1, 271, 901) themex1=32.
+if any (projetx1, 281, 631) themex1=33.
+if any (projetx1, ) themex1=34.
+if any (projetx1, 501) themex1=41.
+if any (projetx1, 151) themex1=42.
+if any (projetx1, 261, 771) themex1=43.
+if any (projetx1, 411, 661, 671, 691, 801) themex1=53.
+if any (projetx1, ) themex1=62.
+if any (projetx1, 571, 721, 841, 911) themex1=63.
+if any (projetx1, 241, 431, 551) themex1=66.
+if any (projetx1, ) themex1=67.
+if any (projetx1, 621) themex1=68.
+if any (projetx1, 251) themex1=71.
+if any (projetx1, 181, 891) themex1=81.
+if any (projetx1, 221) themex1=82.
+if any (projetx1, 361, 371, 541, 561, 591) themex1=85.
+if any (projetx1, 161, 421, 511, 751, 781) themex1=91.
+if any (projetx1, 861 ) themex1=92.
+if any (projetx1, ) themex1=93.
+if any (projetx1, 191, 211, 481, 521, 641) themex1=94.</pre></td>
+  </tr>
+  <tr>
+   <td nowrap valign="top" bgcolor="#D8E7FE"><b>Wertetiketten:</b></td>
+   <td>
+    -99   Sysmiss<br>
+    1   Aussenpolitik<br>
+    2   Immigration<br>
+    5   Europäische Union<br>
+    11   Verteidigung<br>
+    13   Frieden<br>
+    22   Verkehrspolitik<br>
+    23   Energiepolitik<br>
+    24   Umwelt<br>
+    25   Wohnungswesen<br>
+    26   Raumplanung<br>
+    27   Öffentliche Dienste<br>
+    31   Kultur<br>
+    32   Bildung<br>
+    33   Forschung<br>
+    34   Medien<br>
+    41   Strafrecht<br>
+    42   Rechte<br>
+    43   Abtreibung<br>
+    53   Institutionen<br>
+    62   Familienpolitik<br>
+    63   Pension<br>
+    66   Gesundheit <br>
+    67   Arbeitslosigkeit<br>
+    68   Drogen<br>
+    71   Arbeitsmarkt<br>
+    81   KonsumentInnenschutz<br>
+    82   Wirtschaftsordnung<br>
+    85   Landwirtschaft <br>
+    91   Subventionen<br>
+    92   Finanzen<br>
+    93   Steuern<br>
+    94   Steuern auf den Verkehr<br></td>
+  </tr>
+  </table>
+</body>
+</html>

@@ -12,8 +12,10 @@ library(foreign)
 library(magrittr)
 library(knitr)
 
-d <- read.dta('data/ProjetsD_104.dta', convert.dates = T, 
-              missing.type = T)
+#d <- read.dta('data/ProjetsD_104.dta', convert.dates = T, 
+#              missing.type = T)
+
+load('data/referendums.RData')
 
 ################################################################################
 # Cleaning up data
@@ -39,6 +41,15 @@ d$projetx <- as.factor(d$projetx)
 source('data/documentation/datakey.R')  # creates a complete datakey & subset of relevant vars
 # also saves these datakeys in files
 
+################################################################################
+# Recoding variables
+################################################################################
+
+# typex: make obligatory referendum the base category
+
+# themex: reduce? what is the base category?
+
+# regiling: make French Germans base category
 
 ################################################################################
 # Addings variables
@@ -54,7 +65,6 @@ d <- within(d, {
              (a02x == 'Nein' & motcfx == 'Ja')
 })
   
-
 
 ################################################################################
 # Save Project
