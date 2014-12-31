@@ -1,0 +1,59 @@
+---
+title: "Dalton and Klingemann (2007) 'Citizens and Political Behavior'"
+date: "07.12.2014"
+output: pdf_document
+---
+  
+*Dalton, R.J., Klingemann, H.-D., 2007. Citizens and Political Behavior, in: Dalton, R.J., Klingemann, H.-D. (Eds.), Oxford Handbook of Political Behavior. Oxford Handbooks Online*
+  
+  
+*Abstract* 
+This article examines the debates on political behaviour that are most visible in scholarly literature. These debates can be found throughout this book. The debates on mass belief systems and communication are first examined, followed by modernization and democratization of political culture. Political participation and the importance of public opinion are also considered.
+
+## Summary
+
+Introduction to the Oxford Handbook of Political Behavior. The authors identify 
+six key themes for political behavior research: he  sophistication
+of	mass	publics,	modernization	processes,	political	values,	voting	choice,	political	participation,	and
+representation.
+
+Referendums are not mentioned. There is no chapter on them in the book.
+
+## Excerpt
+
+Host of international survey projects have contributed a lot of data:
+"In  short, over	the	past	few	decades	comparative	political	behavior	has	become	a	very	“data‐rich”	field	of	research." (p. 4)
+
+"Debates  about	the	political	abilities	of	the	public	remain	one	of	the	major	controversies	in	political	behavior
+research	as	discussed	in	several	of	this	volume's	chapters." (p. 5)
+
+"In  democratic	systems	electoral	choices	are	at	the	center	of	the	political	process.	Thus,	the	study	of	electoral
+choice	has	quite	naturally	been	a	core	theme	in	political	behavior	research,	and	past	research	has	produced
+dramatic	advances	in	our	knowledge	about	how	voters	reach	their	decisions.	Early	electoral	research	presumed
+that	many	voters	were	ill	prepared	to	deal	with	the	complexities	of	politics;	thus	voters	relied	on	shortcuts—such	as
+group	cues	or	affective	partisan	loyalties—to	simplify	political	decision	making	and	guide	their	individual	behavior
+(Lazarsfeld,	Berelson,	and	McPhee	1954;	Campbell	et	al.	1960;	Lipset	and	Rokkan	1967).	This	approach	also
+stressed	the	underlying	stability	of	party	competition	because	people	supposedly	based	their	political	decisions	on
+enduring	social	cleavages,	and	stable	party‐voter	alignments	were	a	focus	of	research." (p. 10)
+
+"The  decline	of	long‐term	predispositions	based	on	social	position	or	partisanship	should	shift	the	basis	of	electoral
+behavior	research	to	short‐term	factors,	such	as	(p.	11)	 candidate	image	and	issue	opinions	(see	chapters	by
+Lewis‐Beck	and	Stegmaier,	and	Deegan‐Krause).	Thus,	recent	research	is	focusing	on	whether	the	new	electoral
+order	includes	a	shift	toward	candidate‐centered	voting	choice	(McAllister	in	this	volume;	Wattenberg	1991;	Aarts,
+Blais,	and	Schmitt	2005)." (p. 10)
+
+"To  some	extent,	the	individualization	of
+electoral	choice	revives	earlier	images	of	the	informed	voter	that	we	once	found	in	classic	democratic	theory:	if
+voters	rely	less	on	group	cues,	they	base	their	choices	more	on	their	own	judgment." (p. 11)
+
+"At  the	same	time,	there	is	a	potential	dark	side	to	these	new	patterns	in	electoral	politics.	The	rise	of	single‐issue
+politics	handicaps	a	society's	ability	to	deal	with	political	issues	that	transcend	specific	interests	and	the
+negotiation	of	trade‐offs."(p. 11)
+
+"Second,  we	have	noted	the	ironic	development	that	our	expanding	empirical	evidence	has	occurred	during	a	time
+when	many	basic	features	of	citizen	attitudes	and	behaviors	are	changing	in	ways	that	make	modeling	citizen
+politics	more	complex.	In	part,	these	trends	reflect	the	tremendous	social	and	political	changes	that	have	occurred
+in	the	world	during	the	past	generation.	Modernization	has	transformed	living	conditions	throughout	the	world,
+altered	the	skills	and	values	of	contemporary	publics,	and	offered	new	technological	advances	that	change	the
+relationship	between	citizens	and	elites.	Perhaps,	this	is	the	most	interesting	object	worthy	of	study.	For	never
+before	in	history	has	the	interaction	between	elites	and	people	been	shifted	so	much	to	the	side	of	the	people." (p. 18)

@@ -1,0 +1,112 @@
+---
+title: "Sciarini and Tresch (2009) 'A Two-Level Analysis of the Determinants of Direct Democratic Choices in European, Immigration and Foreign Policy in Switzerland'"
+date: "31.12.2014"
+output: pdf_document
+---
+
+**
+
+*Abstract*
+This article employs a unique data set – covering 25 popular
+votes on foreign, European and immigration/asylum policy
+held between 1992 and 2006 in Switzerland – in order to
+examine the conditional impact of context upon utilitarian,
+cultural, political and cognitive determinants of individual
+attitudes toward international openness. Our results reveal
+clear patterns of cross-level interactions between individual
+determinants and the project-related context of the vote.
+Thus, although party cues and political competence have a
+strong impact on individuals’ support for international open-
+ness, this impact is substantially mediated by the type of
+coalition that is operating within the party elite. Similarly,
+subjective utilitarian and cultural considerations influence
+the voters’ decision in interaction with the content of the
+proposal submitted to the voters as well as with the framing
+of the voting campaign. Individual level controls: age, gender, education, language, religion and urbanity.
+
+## Summary
+
+Analysis of referendums on topics for foreign policy, European and immigration/asylum policy. [An area particularly prone to populist initiatives and where anti-government votes are more likely.] They cover 25 popular votes on foreign, European and immigration/asylum policy held between 1992 and 2006 in Switzerland. "Out of these votes, 13 dealt with immigration and asylum policy, 7 pertained tothe relationship between Switzerland and the EU and 5 concerned foreign policy" (p. 464) Recoded votes so that a one means voted for more integrations (no in case a referendum is directed against more integration). party cues measured as belonging to conservative right, moderate right or left political camp. [Useful for capturing party ID for my paper but better omit the left-right self-placement.]
+
+## Excerpt
+
+"In Switzerland, issues relating to international openness (immigration,
+foreign policy, EU integration) are highly controversial and cause serious
+divisions within the party system (Marquis and Sciarini, 1999)." (p. 461)
+
+"Similarly, we contend that the type of coalition among
+the party elites substantially mediates the effect of political predispositions
+and cognitive factors. To empirically capture these relationships between indi-
+vidual and contextual determinants, we resort to multi-level regressions with
+cross-level interactions, where voters are clustered with respect to the project submitted to them." (p. 458)
+
+  "H4a: Regardless of the type of party coalition, support for international openness
+increases with the level of political competence among supporters of the political
+left and decreases with political competence among sympathizers of the con-
+servative right – leading to a polarization effect." (p. 463)
+
+"Out
+of these votes, 13 dealt with immigration and asylum policy, 7 pertained to
+the relationship between Switzerland and the EU and 5 concerned foreign
+policy (see the full list in the Online Appendix)." (p. 464)
+
+"Initially, there
+were a total of 29,352 observations. Eliminating respondents who did not
+participate in the popular vote and those who cast an empty ballot reduces
+the sample to 14,813 observations. Owing to missing answers on some
+independent variables, we must eliminate about 600 more cases." (p. 464)
+
+"Our dependent variable is the individual voting decision in the 25 popular
+votes under study. In most cases, voting ‘Yes’ meant approving Switzerland’s
+opening-up to the outside world (e.g. by joining the United Nations). After
+recoding the cases where casting a Yes vote meant closing the country to the
+outside (e.g. by tightening immigration or asylum policy), a value of 1 indi-
+cates support for international openness, 0 reflects support for closedness." (p. 464)
+
+"Party cues are measured by respondents’ party identification and by their
+self-positioning on a left–right scale (Kriesi, 2005). We consolidate the high
+number of political parties in Switzerland into three party families: the con-
+servative right (Swiss People’s Party, Swiss Democrats, other parties of the
+radical right), the moderate right (Christian Democrats, Radicals, Liberals,
+other small parties) and the left (Social Democrats, Greens, Workers Party,
+other small left parties). Voters who do not identify with a party but position
+themselves clearly on one side of the left–right scale are added to the cor-
+responding category (Kriesi, 2005: 142), whereas respondents who do not
+identify with a party or do not position themselves on either side of the
+left–right scale serve as the reference category." (p. 465)
+
+"Our indicator of political competence is project specific. It is based on three
+sets of information collected in the VOX surveys. The first set of data measures
+voters’ knowledge of the title of the project submitted to the popular vote
+and their ability to describe its content. Respondents receive one point for
+correctly answering each of these two questions. The second set measures
+respondents’ ability to justify their voting choice. These data are based on an
+open-ended question through which respondents are asked to supply two
+reasons for their Yes (or No) vote. Again, they receive one point if they are
+able to answer the question, even in vague terms – provided that their justifi-
+cation relates to the vote in question and does not contradict their vote.
+Finally, our third measure is taken from the respondents’ ability to describe
+their position, answering a set of closed-form questions on the major argu-
+ments of the campaign. Respondents who answer all these questions receive
+one point. The combination of these three sets of questions results in a scale
+of political competence that ranges from 0 to 5." (p. 465)
+
+control variables: "age, gender, education, language, religion and urbanity"
+
+"At the contextual level, we look at the ‘objective coalitions’ that form on
+the basis of parties’ voting recommendations, in order to account for the struc-
+ture of party competition during the voting campaign. Whereas Kriesi (2005)
+distinguishes between no fewer than five types of coalition, we can reduce
+this to a two-category division in our data: a centre–left (reference category)
+and a centre–right coalition. The latter grouping unites all parties of the
+conservative and the moderate right in opposition to the left; the former sets
+the parties of the left and the moderate right against the conservative right.
+Although the centre–right coalition is generally dominant in Swiss politics –
+especially on issues regarding economic, financial or social policy – the
+centre–left coalition appears frequently in the field of foreign policy (Kriesi,
+2005)." (p. 466)
+
+"Note that all continuous independent variables have been standardized
+with a mean of 0 and a standard deviation of 1 to facilitate comparisons
+between the estimated coefficients." (p. 466)
+

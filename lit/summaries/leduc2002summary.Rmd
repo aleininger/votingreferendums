@@ -1,0 +1,83 @@
+---
+title: "Leduc (2002) 'Opinion change and voting behaviour in referendums'"
+date: "07.12.2014"
+output: pdf_document
+---
+
+*Leduc, L., 2002. Opinion change and voting behaviour in referendums. European Journal of Political Research 41, 711–732.*
+
+*Abstract*
+  Voters in a referendum obtain information and derive voting cues from a variety
+of sources. Some of these, such as political parties or ideological orientations, are similar to
+those also found to be influential in elections. Others can be quite different. In some refer-
+  endums, the issue may be entirely new and unfamiliar to many voters, initiating a ‘learning’
+or ‘cue-taking’ process specific to the campaign itself. In referendum campaigns, parties may
+be internally divided and sometimes send conflicting signals to their electorates. As a result,
+voting behaviour in referendums often exhibits greater volatility than is found in elections.
+In the ten papers included in this Special Issue of EJPR, we focus on the process of opinion
+formation and change which occurred in a number of European, North American and
+Australia/New Zealand referendums held under a variety of different institutional and
+political conditions. In this essay, I argue that there are three distinctive patterns of opinion
+formation and reversal that tend to occur in referendum campaigns, each of which has sig-
+  nificant consequences both for voting choice and for referendum outcomes.
+
+  
+## Summary
+
+Is an introduction to a special issue in EJPR.
+
+## Excerpt
+
+"A referendum presents different sets of choices to the voter than an election.
+In a referendum, unlike in an election, no political parties or candidate names
+appear on the ballot. Voters must choose among alternatives that are some-
+times unfamiliar and perhaps lacking in reliable voting cues. Yet some refer-
+endums are highly partisan contests, even without the appearance of party or
+candidate names on the ballot." (p. 711)
+
+"Although models of electoral behaviour that are familiar to election
+scholars can work reasonably well in explaining referendum voting in some
+instances, the relative weight of campaign effects can vary substantially as the
+context in which a referendum takes place changes." (p. 712)
+
+"In those instances where
+the issue(s) of the referendum are entirely new to the voter, the learning
+process of the campaign becomes highly critical to the determination of the
+outcome." (p. 714)
+
+"Thus, a referendum which involves a cleavage or ideological issue, and/or
+in which political parties take well-known and predictably opposite positions,
+ought to hold the least potential for opinion change." (p. 714)
+
+Turnout can vary considerably between referendums and can be crucial factor.
+
+"Since turnout in
+referendums can fluctuate so widely, the potential for turnout effects in a ref-
+erendum is significantly greater than that typically found in elections." (p. 716)
+
+"The type of referendum campaign that is least like that of an election is
+one in which there is little partisan, issue or ideological basis from which voters
+might tend to form an opinion." (p. 717)
+
+"By contrast, where an issue is a familiar one in the political arena, or where
+parties take clearly competing positions, the voting decision is easier and
+tends to be made earlier in the campaign." (p. 718)
+
+"We would expect that, in those instances where the issues of a referendum are
+entirely new to the voter, predispositions will be weaker and the learning
+process of the campaign will be more critical for deciding how to vote and
+therefore also more important in determining the outcome." (p. 719)
+
+"Ideology, where it forms a substantial underlying component of
+the party system, can similarly predispose a voter to a particular position on
+a referendum issue. The positions which political parties take, either in the
+evolution of the referendum issue or during the campaign itself, provide one
+of the strongest available information cues to voters. Where these are present,
+voters with partisan predispositions are able to find their own positions on
+an issue fairly quickly." (p. 722)
+
+"Theories of direct democracy tend to presume that referendum voters are
+‘issue’ voters. However, the empirical evidence suggests that attitudes
+towards issues are only one of the variables affecting voting choice, and that
+they are not always the most important one in determining the outcome of a
+referendum." (p. 729)
