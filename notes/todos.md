@@ -1,5 +1,0 @@
-- remove people who cast an empty ballot
-- code variable: how many parties in Zauberformel recommend government position
-- reduce edcuation to university education dummy
-- code variable: party ID with Bundesrat party
-- recode lr variable
