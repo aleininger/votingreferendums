@@ -1,7 +1,7 @@
 votingreferendums
 =================
 
-## Who votes against the government and why? Voting behavior in national referendums in Switzerland
+## Who votes against the government? Voting behavior in national referendums in Switzerland
 
 Paper prepared for Leuven-Montreal Winter School
 
