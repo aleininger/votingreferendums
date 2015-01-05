@@ -1,0 +1,76 @@
+---
+title: "Sciarini and Tresch (2011) 'Campaign Effects in Direct-Democratic Votes in Switzerland.'"
+date: "08.01.2015"
+output: pdf_document
+---
+
+*Sciarini, Pascal, and Anke Tresch. 2011. “Campaign Effects in Direct-Democratic Votes in Switzerland.” Journal of Elections, Public Opinion & Parties 21 (3): 333–57. doi:10.1080/17457289.2011.588334.*
+
+*Abstract*
+The purpose of this article is to analyse the conditions under which referendum
+campaigns have an impact on voting choices. Based on a model of opinion formation that inte-
+grates both campaign effects and partisan effects, we argue that campaign effects vary accord-
+ing to the context of the popular vote (size and type of conflict among the party elite and
+intensity and direction of the referendum campaign). We test our hypotheses with two-step esti-
+mations for hierarchical models on data covering 25 popular votes on foreign, European and
+immigration policy in Switzerland. Our results show strong campaign effects and they suggest
+that their strength and nature are indeed highly conditional on the context of the vote: the type
+of party coalition pre-structures the patterns of individual voting choices, campaign effects are
+higher when the campaign is highly intense and they are more symmetric when it is balanced.
+
+## Summary
+"two-step estimations for hierarchical models on data covering 25 popular votes on foreign, European and immigration policy in Switzerland." "
+
+## Excerpt
+
+"Accord-
+ing to a widespread view, “referendum campaigns are likely to influence more voters
+than are election campaigns” (Schmitt-Beck & Farrell, 2002a: 193; see also LeDuc,
+2007; de Vreese, 2007b). This is because referendums are said to involve less deeply
+held beliefs and cleavages and, therefore, to lead to higher volatility, a smaller role of
+party identification and later decision making than elections (LeDuc, 2002b; Schmitt-
+Beck & Farrell, 2002b). However, there is also a great deal of variation among refer-
+endum campaigns (LeDuc, 2002a): while some referendums are prone to short-term
+campaign influence, others articulate traditional, ideological and partisan conflict
+lines and, therefore, come closer to electoral contests." (p. 333)
+
+"More specifically, we first
+assume that the coalition that forms among the party elite on a given policy proposal
+determines the type and amount of conflict and, therefore, pre-structures the process of
+opinion formation." (p. 334)
+
+"As the country with the most far-reaching experience in direct legislation and refer-
+endum campaigns (Kriesi, 2005), the “Swiss laboratory” lends itself particularly well
+to an analysis of campaign and partisan effects." (p. 334)
+
+"The measures of campaign direction and campaign intensity stem from a dataset of newspaper ads published in six daily newspapers during the last four weeks before each popular vote." (p. 334)
+
+"Such coalitions are characterized by the joint support of Switzerland’s
+international openness by all governing parties (Social Democrats, Christian Demo-
+crats, Radical Democrats and Swiss People’s Party), whereas opposition – if at all – stems only from small, non-governmental parties." (p. 338)
+
+"Hypothesis 1a: Cases of grand coalitions lead to a mainstream effect: support for
+international openness increases as a function of political competence among sym-
+pathizers of all parties." (p. 338)
+
+"Similarly, but in the context of US
+senate election campaigns, Kahn and Kenney (1999) have shown that intense election
+campaigns lead voters to regard their choice as more important and encourage them to
+make more sophisticated decisions about competing candidates." (p. 339)
+
+"Hypothesis 2: Campaign effects increase with campaign intensity, meaning that the
+impact of political competence on acceptance of international openness is greater
+when a campaign is intense than when the intensity of the campaign is weak; conver-
+sely, partisan effects are stronger in low-intensity campaigns than in high-intensity
+campaigns." (p. 339)
+
+"As previously noted, our indicators of the direction and intensity of the referendum
+campaigns are based on an extensive dataset of ads published by the political elites in
+six Swiss daily newspapers during the month before each popular vote. [...] More specifically, to capture the intensity of a
+campaign, we computed the natural logarithm of the total number of advertisements
+and took the median to divide campaigns into low and high intensity campaigns." (p. 342)
+
+"More generally, given that all three contextual variables included in our analyses in
+fact matter, a natural step forward will be to test how and to what extent party
+coalition, the intensity and the direction of campaigns interact and jointly influence
+opinion formation." (p. 350)

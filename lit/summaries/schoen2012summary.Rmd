@@ -1,0 +1,112 @@
+---
+title: "Schoen (2012) 'Wählen Und Abstimmen - Zwei Seiten Einer Medaille? Eine Analyse Am Beispiel Des Volksentscheids Zum Nichtraucherschutz in Bayern.'"
+date: "02.01.2015"
+output: pdf_document
+---
+
+*Schoen, Harald. 2012. "Wählen Und Abstimmen - Zwei Seiten Einer Medaille? Eine Analyse Am Beispiel Des Volksentscheids Zum Nichtraucherschutz in Bayern." Politische Vierteljahresschrift Sonderheft 45: 514–35.*
+
+*Abstract*
+This article examines the determinants
+of voting behavior in
+elections and in
+referenda in comparative perspective. It an
+alyzes the differences between elections and
+referenda in terms of institutions and political
+communications and infers several hypotheses.
+Utilizing data from a survey conducted during
+the campaign before the Bavarian referendum
+on non-smoking policy, the analysis
+demonstrates that the dete
+rminants of electoral and
+referendum participation resemble
+each other quite closely in so
+me respects, while they differ
+considerably in others. The determinants of
+vote choice in the referendum and the election
+differ profoundly. When studying referendum be
+havior it is thus not warranted to
+indiscriminately draw on findings
+concerning electoral behavior.
+
+## Summary
+
+Data on Bavarian referendum on non-smoker protection.
+
+Determinants of participation are very similar for elections and direct democratic votes, however they are very different for the choices made in those votes. Classic predictor like party identification or candidate evaluation have little predictive power for explaining voting behavior in the referendum.
+
+## Excerpt
+
+"It analyzes the differences between elections and
+referenda in terms of institutions and political
+communications and infers several hypotheses.
+Utilizing data from a survey conducted during
+the campaign before the Bavarian referendum
+on non-smoking policy, the analysis
+demonstrates that the dete
+rminants of electoral and
+referendum participation resemble
+each other quite closely in so
+me respects, while they differ
+considerably in others. The determinants of
+vote choice in the referendum and the election
+differ profoundly."
+
+"Zum anderen orientiert sich die
+politikwissenschaftliche Verhaltensforschung stark an den repräsentativen Kernelementen der
+liberalen Demokratie und ist daher großenteils Wahlforschung."
+
+"Solche von Bürgern initiierte Abstimmungen
+beziehen sich häufig auf Forderungen, die in der repräsentativdemokratischen Arena keine
+Mehrheit oder sogar überhaupt kein Gehör gefunden haben, und bringen insofern
+Repräsentationsschwächen der zentralen repräsentativdemokratischen Akteure, also
+vornehmlich der Parteien, zum Ausdruck. Daher ist es wohl kein Zufall, wenn bei
+Volksentscheiden dieser Art andere politische Konfliktlinien und andere kollektive Akteure
+als in der repräsentativdemokratischen Arena eine herausragende Rolle spielen (siehe dazu
+etwa LeDuc 2002b)."
+
+"legt diese Charakterisierung die Vermutung nahe, dass man vom Wahlverhalten
+bekannte Regelmäßigkeiten nicht ohne weiteres auf Abstimmungsverhalten übertragen kann.
+Im Gegenteil, es sollte im Einzelfall geprüft werden, ob ein solcher Transfer von Befunden
+möglich ist." (p. 5)
+
+keine starken Positionierungen von Parteien, resonanzarmer Abstimmungskampf.
+
+"Dabei wird zunächst die Teilnahme an Volksentscheid bzw. Landtagswahl
+betrachtet, anschließend die Wahlentscheidung zwischen Parteien und das Votum für oder
+gegen eine Verschärfung des Nichtraucherschutzes."
+
+
+"Über Volksbegehren erwirkte Volksabstimmungen hingegen
+können gerade aus einem seitens der Bürger wahrgenommenen Responsivitätsdefizit von
+Parteien und Politikern resultieren [...] Deshalb könnte der Volksentscheid gerade auch mit der
+Responsivität des repräsentativdemokratischen Systems unzufriedene Bürger zur
+Stimmabgabe mobilisieren."
+
+"Vor diesem Hintergrund hängt die Antwort auf die Frage, inwieweit bei einem
+Volksentscheid Parteibindungen, Personen- und Sachfragenorientierungen das
+Stimmverhalten in gleicher (oder ähnlicher) Weise beeinflussen wie bei einer Wahl, davon ab, inwieweit in beiden Fällen Parteien, Personen und Sachfragen gleichermaßen mit den Entscheidungsmöglichkeiten in Verbindung gebracht werden (LeDuc 2002b). Bei Wahlen in Deutschland konkurrieren Parteien mit ihrem Spitzenpersonal um die Wählergunst, bei Volksentscheiden sehen sich Bürger hingegen vor eine sachliche Alternative gestellt. Daher scheinen Parteibindungen und Kandidatenorientierungen bei Volksentscheiden auf den ersten Blick vollkommen unwichtig." (p. 9)
+
+"Vereinfacht
+formuliert sollten Parteibindungen sowie Einstellungen zu Politikern und traditionellen
+Streitfragen nur das Wahlverhalten bestimmen, während das Abstimmungsverhalten
+ausschließlich von referendumsspezifischen Einstellungen beeinflusst wird."
+
+# Empirics
+
+Determinants of participation have similar effects for elections and referendums.
+
+"Um zu klären, ob die Determinanten der Stimmentscheidung zwischen Volksentscheid und
+Landtagswahl variieren, wurden binäre bzw. multinomiale logistische Regressionsmodelle gerechnet. Darin dienen Parteibindungen, Einstellungen zu bayerischen Spitzenpolitikern, die
+Links-Rechts-Selbsteinstufung sowie Einstellungen zum Nichtraucherschutz und zu
+staatlicher Intervention als Prädiktoren."
+
+kein siginfikanter effekt für links-rechts oder parteibindung.
+
+"Betrachtet man die Bestimmungsgründe
+der Teilnahmeentscheidungen bei Landtagswahl und Volksentscheid, sind neben erheblichen
+Unterschieden hinsichtlich parteien- und politikerbezogener Orientierungen einige
+Ähnlichkeiten erkennbar. In Bezug auf die Wahl- und die Stimmentscheidung wurden
+dagegen vollkommen verschiedene Determinantenmuster nachgewiesen. Insgesamt legt die
+Analyse daher den Schluss nahe, dass Befunde zum Wahlverhalten nicht unbesehen auf
+Verhalten bei Abstimmungen übertragen werden können."

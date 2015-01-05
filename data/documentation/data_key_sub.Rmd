@@ -12,7 +12,8 @@ library("knitr")
 
 ```{r, echo=FALSE}
 # produces a table of all variables
-setwd('C:/Users/el1/Documents/votingreferendums/data/documentation')  # GESIS
-dataKeySub <- read.csv('data_key_sub.csv')
-kable(dataKeySub[,1:3])
+#setwd('C:/Users/el1/Documents/votingreferendums/data/documentation')  # GESIS
+dataKeySub <- read.csv('data_key_sub.csv', stringsAsFactors = F, 
+                       fileEncoding="iso-8859-1")
+kable(dataKeySub)
 ```

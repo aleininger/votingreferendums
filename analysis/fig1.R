@@ -19,7 +19,7 @@ summary(m)
 # Plot
 opar <- par(no.readonly=TRUE)
 
-par(pin = c(6, 3))
+par(mar=c(2,2,2,2))
 
 plot(x = year.p$year, y = year.p$referendums, type="h", lwd = 6, col = 'grey', 
      xlab = '', ylab = '', ylim=c(0,30))
@@ -33,4 +33,4 @@ legend(x = 1950, y = 30, legend = c('Referendums per year',
                                     'Trend in lost referendums'), 
        lty = c(1,1,0,2), lwd = c(6,2,2,2), col = c("grey","black","black", 'black'),
        pch = c(NA,NA,1), bty = "n")
-#par(opar)
+par(opar)

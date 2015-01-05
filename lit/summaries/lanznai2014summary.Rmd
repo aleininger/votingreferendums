@@ -1,0 +1,69 @@
+---
+title: "Lanz and Nai (2014) 'Vote as You Think: Determinants of Consistent Decision Making in Direct Democracy'"
+date: "08.01.2015"
+output: pdf_document
+---
+
+*Lanz, Simon, and Alessandro Nai. 2014. “Vote as You Think: Determinants of Consistent Decision Making in Direct Democracy.” Swiss Political Science Review, October, n/a – n/a. doi:10.1111/spsr.12126.*
+
+*Abstract*
+This study investigates the conditions under which Swiss citizens take consistent
+decisions, that is, decisions that reflect their argument-based opinions, during direct-democratic
+ballots. In line with recent work on cognitive political behavior, we expect the drivers of consistent
+voting to be found at the individual and contextual level. At the individual level, we argue that
+political knowledge positively affects consistent decisions. At the contextual level, we anticipate a
+positive effect for campaign intensity, complexity and negativism. We estimate hierarchical logistic
+models based on VOX survey data (1999-2005) and original data that captures the nature of
+political campaigns. Our results support our expectations for the situational level and (partially)
+for the individual factors.
+
+## Summary
+
+"The empirical analysis covers votes on 51 projects that took place in Switzerland
+between 1999 and 2005. 2 Individual-level variables are based on representative surveys
+conducted after each vote." (p. 6)
+
+## Excerpt
+
+"This article asks under which
+circumstances the opinions citizens have predict their decision at the ballot box." (p. 1)
+
+"This contribution assesses the conditions under which opinions held by citizens on issue-
+related arguments are predictive of their final decision during Swiss direct-democratic
+ballots. In line with recent work on the cognitive basis of electoral behavior (e.g. Kriesi
+2005; Mondak et al. 2010; Lachat 2011; Nai 2014a) we expect those conditions to be
+found both at the individual and information environment level." (p. 3)
+
+"We define a decision as consistent if it is in line with the voter’s position on the issue at
+stake and hence reflects her opinion on the principal issue-related arguments. For instance,
+strongly supporting pro-arguments while rejecting contra-arguments yields to a consistent
+decision if the voter ultimately supports the ballot in the polls." (p. 3)
+
+"We only imply that a decision that goes in the same
+direction as the underlying opinions on the main arguments might be qualified as consistent." (p. 4)
+
+"On the individual level we focus on political knowledge, widely acknowledged as a key
+determinant for political behavior (Zaller 1992; Delli Carpini and Keeter 1993; 1996;
+Goren 2004; Kriesi 2005; Marquis 2006)." (p. 4)
+
+"H1: High levels of background political knowledge increase the likelihood of consistent decision-making." (p. 5)
+
+"H2: More intense political campaigns increase the likelihood of consistent decision-making." (p. 5)
+
+"H4: More negative political campaigns decrease the likelihood of consistent decision-making." (p. 6)
+
+"The empirical analysis covers votes on 51 projects that took place in Switzerland
+between 1999 and 2005. 2 Individual-level variables are based on representative surveys
+conducted after each vote." (p. 6)
+
+"Background knowledge describes how familiar a voter is with the project. Our
+measurement contains two items. First, voters have to correctly retrieve the exact title of the project. Second, they have to explain the content of the proposition. 65 percent were able to do both and are considered politically sophisticated. One third of the voters had problems recalling either the title or the content of the project and is thus classified as low
+knowledgeable." (p. 8)
+
+
+
+## Empirics
+
+vote choice is dependent variable
+
+iV: additive scale of agreement to arguments in campaign

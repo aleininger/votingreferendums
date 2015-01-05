@@ -22,7 +22,7 @@ Referendums are not mentioned. There is no chapter on them in the book.
 ## Excerpt
 
 Host of international survey projects have contributed a lot of data:
-"In  short, over	the	past	few	decades	comparative	political	behavior	has	become	a	very	“data‐rich”	field	of	research." (p. 4)
+"In  short, over	the	past	few	decades	comparative	political	behavior	has	become	a	very 'data-rich' field	of	research." (p. 4)
 
 "Debates  about	the	political	abilities	of	the	public	remain	one	of	the	major	controversies	in	political	behavior
 research	as	discussed	in	several	of	this	volume's	chapters." (p. 5)
@@ -34,21 +34,21 @@ that	many	voters	were	ill	prepared	to	deal	with	the	complexities	of	politics;	th
 group	cues	or	affective	partisan	loyalties—to	simplify	political	decision	making	and	guide	their	individual	behavior
 (Lazarsfeld,	Berelson,	and	McPhee	1954;	Campbell	et	al.	1960;	Lipset	and	Rokkan	1967).	This	approach	also
 stressed	the	underlying	stability	of	party	competition	because	people	supposedly	based	their	political	decisions	on
-enduring	social	cleavages,	and	stable	party‐voter	alignments	were	a	focus	of	research." (p. 10)
+enduring	social	cleavages,	and	stable	party-voter	alignments	were	a	focus	of	research." (p. 10)
 
-"The  decline	of	long‐term	predispositions	based	on	social	position	or	partisanship	should	shift	the	basis	of	electoral
-behavior	research	to	short‐term	factors,	such	as	(p.	11)	 candidate	image	and	issue	opinions	(see	chapters	by
-Lewis‐Beck	and	Stegmaier,	and	Deegan‐Krause).	Thus,	recent	research	is	focusing	on	whether	the	new	electoral
-order	includes	a	shift	toward	candidate‐centered	voting	choice	(McAllister	in	this	volume;	Wattenberg	1991;	Aarts,
+"The  decline	of	long-term	predispositions	based	on	social	position	or	partisanship	should	shift	the	basis	of	electoral
+behavior	research	to	short-term	factors,	such	as	(p.	11)	 candidate	image	and	issue	opinions	(see	chapters	by
+Lewis-Beck	and	Stegmaier,	and	Deegan-Krause).	Thus,	recent	research	is	focusing	on	whether	the	new	electoral
+order	includes	a	shift	toward	candidate-centered	voting	choice	(McAllister	in	this	volume;	Wattenberg	1991;	Aarts,
 Blais,	and	Schmitt	2005)." (p. 10)
 
 "To  some	extent,	the	individualization	of
 electoral	choice	revives	earlier	images	of	the	informed	voter	that	we	once	found	in	classic	democratic	theory:	if
 voters	rely	less	on	group	cues,	they	base	their	choices	more	on	their	own	judgment." (p. 11)
 
-"At  the	same	time,	there	is	a	potential	dark	side	to	these	new	patterns	in	electoral	politics.	The	rise	of	single‐issue
+"At  the	same	time,	there	is	a	potential	dark	side	to	these	new	patterns	in	electoral	politics.	The	rise	of	single-issue
 politics	handicaps	a	society's	ability	to	deal	with	political	issues	that	transcend	specific	interests	and	the
-negotiation	of	trade‐offs."(p. 11)
+negotiation	of	trade-offs."(p. 11)
 
 "Second,  we	have	noted	the	ironic	development	that	our	expanding	empirical	evidence	has	occurred	during	a	time
 when	many	basic	features	of	citizen	attitudes	and	behaviors	are	changing	in	ways	that	make	modeling	citizen

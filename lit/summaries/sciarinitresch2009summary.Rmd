@@ -4,7 +4,7 @@ date: "31.12.2014"
 output: pdf_document
 ---
 
-**
+*Sciarini, P., and A. Tresch. 2009. "A Two-Level Analysis of the Determinants of Direct Democratic Choices in European, Immigration and Foreign Policy in Switzerland." European Union Politics 10 (4): 456-4??81. doi:10.1177/1465116509346388.*
 
 *Abstract*
 This article employs a unique data set – covering 25 popular
@@ -109,4 +109,11 @@ centre–left coalition appears frequently in the field of foreign policy (Kries
 "Note that all continuous independent variables have been standardized
 with a mean of 0 and a standard deviation of 1 to facilitate comparisons
 between the estimated coefficients." (p. 466)
+
+in their literature some use dummies, some seperate regression. But some
+also use multilevel models.
+
+"First, and in agreement with Zaller’s (1992) work, we found that party
+cues and political competence jointly influenced support for integrative
+policies and that this influence varied with the context." (p. 475)
 

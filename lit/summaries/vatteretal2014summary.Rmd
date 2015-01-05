@@ -1,0 +1,109 @@
+---
+title: "Vatter et al. (2014) 'Who Supports Minority Rights in Popular Votes? Empirical Evidence from Switzerland.'"
+date: "02.01.2015"
+output: pdf_document
+---
+
+*Vatter, Adrian, Isabelle Stadelmann-Steffen, and Deniz Danaci. 2014. “Who Supports Minority Rights in Popular Votes? Empirical Evidence from Switzerland.” Electoral Studies 36 (December): 1–14. doi:10.1016/j.electstud.2014.06.008.*
+
+*Abstract*
+Recent research shows that well-educated citizens are more supportive of minority rights
+in direct democratic votes than people with less education. This article however suggests
+that educational effects on minority rights only emerge under certain conditions. A
+Bayesian multilevel analysis of 39 referendums and initiatives on minority rights in
+Switzerland (1981e2009) shows that educational effects are particularly strong when the
+rights of lesser-known cultural minorities are to be extended. They are entirely absent,
+however, when referenda address the curtailment of rights for well-known minority
+groups.
+
+## Summary
+"A
+Bayesian multilevel analysis of 39 referendums and initiatives on minority rights in
+Switzerland (1981e2009) shows that educational effects are particularly strong when the
+rights of lesser-known cultural minorities are to be extended.""
+
+They include as controls:
+- gender
+- age
+- language
+- political awareness
+- party identification
+- regional identity
+
+Have a political awareness variable. 
+
+## Excerpt
+
+"Donovan and Bowler (1998), Haider-Markel et al. (2007)
+and Vatter (2011) all conclude that education is a key var-
+iable in understanding voting behaviour regarding minor-
+ity rights: The higher an individual's level of education, or
+the greater the share of highly educated citizens in a dis-
+trict, the greater the likelihood of a pro-minority vote." (p. 1)
+
+"H1. Higher levels of education increase the likelihood that
+an individual will vote in favour of minority rights on the
+ballot." (p. 4)
+
+"Second, we do not have theoretical arguments as to why the exclusion of
+abstention should bias our results on voting behaviour. Finally, the choice
+between selection models and the focus on those who voted is a matter of
+research interest. By focussing on respondents who participated we have
+chosen a design which best corresponds to our research question: Who e
+among those who participate e votes in favour of minority rights and
+under which conditions?" (footnote 6)
+
+"Unlike in many US surveys, the re-
+spondents in the VOX surveys are not asked how many
+years they spent in formal education, but rather are asked
+to indicate their highest educational level achieved. We
+therefore use a dummy variable for measuring education,
+distinguishing between those who attended university
+and those who did not. Correspondingly, our indicator of
+education is in line with recent studies working with
+Swiss data that used an identical operationalization
+(Helbling, 2011; Helbling and Stojanovic, 2011). It is also in
+accordance with the measures of education in US studies
+on the same topic (Haider-Markel et al., 2007; Hajnal
+et al., 2002)." (p. 5)
+
+"We build a three-category indicator: Re-
+spondents who know both the title and content of a pro-
+posal are considered to have high political awareness (3);
+those who remember neither title nor content exhibit low
+political awareness (1); and respondents who know either
+title or the content are assigned to the middle (reference)
+category (2)." (p. 5)
+
+"At the level of proposals, as control variable we include
+the distinction between the different types of direct dem-
+ocratic instruments, namely between referenda and ini-
+tiatives." (p. 6)
+
+"We refrain from further distinguishing between
+optional and mandatory referenda for several reasons. First,
+while Kriesi (2005: 64) could show that the level of support
+for an optional referendum is lower than for a compulsory
+one, in our sample we do not find a relevant difference
+between these two types. According to the official ballot
+results, support for minority rights varies only slightly be-
+tween optional (57.4%) and mandatory (55.9%) referenda,
+while the main and substantial difference is found with
+respect to initiatives (35.8%). Second, only six of the pro-
+posals analyzed concerned mandatory referenda, which led
+to convergence problems in further analyses not presented
+here." (p. 6)
+
+"Finally, it should be added that our findings might e at
+least in part e reflect the specific features of the political
+culture in Switzerland, and that we therefore must be
+cautious in our generalizations. Accordingly, we present
+our analysis of voting behaviour with the understanding
+that our results are based on specific data from
+Switzerland. This means that more comparative research
+on education, direct democracy, and minority rights using
+large-scale surveys and representative samples from
+different cultural contexts and robust statistical model-
+ling are necessary to shed more light on this important
+issue." (p. 10)
+

@@ -1,0 +1,81 @@
+---
+title: "Christin, Hug and Sciarini (2002) 'Interests and Information in Referendum Voting: An Analysis of Swiss Voters.'"
+date: "02.01.2015"
+output: pdf_document
+---
+
+*Christin, Thomas, Simon Hug, and Pascal Sciarini. 2002. “Interests and Information in Referendum Voting: An Analysis of Swiss Voters.” European Journal of Political Research 41 (6): 759–76.*
+
+*Abstract*
+Referendums impose considerable informational demands on voters. Recent
+theoretical and empirical research has emphasized the different shortcuts and heuristics
+they may employ in deciding how to vote. Relying on a substantial series of votes at the
+national level in Switzerland, we provide empirical tests on how Swiss voters cope with the
+informational demands in referendum voting. We combine simple heuristics, like partisan
+cues and endorsements, with indicators of instrumental interests to explain citizens’ choices
+in a series of votes.
+
+## Summary
+
+Uses standard VOX questions to assess voters' knowledge.
+
+## Excerpt
+
+"Yet, in the realm of referendum voting, it seems largely irrelevant whether voters know in detail all aspects of a given ballot measure, including its expected policy consequences, as long as they can use available information to reach a decision that reflects their (broadly defined) interests." (p. 759)
+
+"For example, Lupia (1994) shows, in the case of some rather complex ballot
+measures in California, that voters with some information on endorsements
+but no knowledge of the content of the ballot proposals voted similarly
+to those with detailed knowledge." (p. 760)
+
+"Often endorse-
+ments by political parties or interest groups give relevant information about
+the interests at stake in a given ballot measure." (p. 760)
+
+"First, we show that poorly informed voters often adopt a strategy leading them to reject new and untested proposals." (p. 760)
+
+"More precisely, the literature suggests that poorly informed voters might reject innovations since existing policies are better known." (p. 760)
+
+"Passy (1993: 223–227) finds that incompetent voters vote more strongly
+against a ballot measure and that, in at least two proposals, these negative
+votes of incompetent voters decided the outcome of the referendum." (p. 761)
+
+"Finally, Marquis and Sciarini (1999) adapt Zaller’s (1994) model of opinion
+formation to referendum campaigns. They find both a polarisation effect, if
+the political elite is split on an issue, and a mainstream effect, if the elite is reunited behind a project, and these effects are functions of citizens’ levels of information." (p. 761)
+
+Hypotheses:
+"H1: Voters with less information on the contents of a ballot proposal tend
+to vote for the status quo." (p. 762)
+
+"H2: Voters with less information on the contents of a ballot proposal, but
+who know the positions taken by their preferred party, tend to vote
+like well-informed voters rather than other less well-informed voters." (p. 763)
+
+"In only ten of the 136 ballot
+measures do we find a statistically significant relationship which goes against
+our first hypothesis. Interestingly enough, most of these negative findings
+appear for ballot measures that have occurred relatively recently. 3 These votes
+share a number of characteristics. Half of them are initiatives proposing solu-
+tions to problems which the government and Parliament have failed to tackle.
+Hence, one might be tempted to argue that uninformed voters vote against
+the government. However, this relationship does not hold systematically
+across the whole period, and it also fails to hold for some of the more recent
+initiatives." (p. 765)
+
+"Unlike most campaigns in American states,
+political parties also intervene extensively in campaigns. Parties, as well as
+interest groups, adopt endorsements which are often reprinted in the press and
+also appear in some cantons in the information booklet that each voter
+receives at home." (p. 766)
+
+"Despite this considerable presence of cues and endorsements in the refer-
+endum campaigns, their effects on voting behaviour have proved to be rather
+elusive. Gruner and Hertig (1983: 125) find that only about 30 per cent of the
+respondents know the endorsement of their preferred party. In the same vein,
+Kriesi (1994: 67) suggests that only 6 per cent of the voters are close to a political party, know its endorsement and state that this endorsement was the most important viewpoint influencing their voting decision." (p. 766)
+
+"For each ballot measure, we also report the average complexity of the pro-
+posal as assessed by the respondents in the respective survey" (p. 772)
+
+

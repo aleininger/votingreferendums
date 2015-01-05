@@ -30,6 +30,12 @@ relevantVars <- c(1,   # Stimmverhalten der Teilnehmenden
                   33,  # decx - Abstimmungsentscheid zur Vorlage
                   34,
                   36,  # motcfx   Empfehlung des Bundesrates
+                  38,  # motpbdx 	Parole der Bürgerlich-Demokratische Partei
+                  39,  # motpdcx 	Parole der Christlichdemokratischen Volkspartei
+                  44,  # motplrx 	Parole der FDP Die Liberalen
+                  47,  # motprdx 	Parole der Freisinnig-Demokratischen Partei
+                  48,  # motpsx 	Parole der Sozialdemokratischen Partei
+                  50,  # motudcx 	Parole der Schweizerischen Volkspartei
                   54,  # partx - Teilnahme in Prozent
                   55,  # projetx - Zur Abstimmung vorgelegte Vorlage
                   56,  # themex - Thema der Vorlage

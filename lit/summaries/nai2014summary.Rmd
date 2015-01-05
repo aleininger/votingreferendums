@@ -1,0 +1,57 @@
+---
+title: "Nai (2014) 'The Cadillac, the Mother-in-Law, and the Ballot: Individual and Contextual Roots of Ambivalence in Swiss Direct Democracy.'"
+date: "08.01.2015"
+output: pdf_document
+---
+
+*Nai, Alessandro. 2014. “The Cadillac, the Mother-in-Law, and the Ballot: Individual and Contextual Roots of Ambivalence in Swiss Direct Democracy.” Electoral Studies 33 (March): 292–306. doi:10.1016/j.electstud.2013.06.010.*
+
+*Abstract*
+Citizens may experience irreconcilable and conflictive values or feelings about a political
+issue. They may, for instance, both believe in a woman’s right to autonomy over her body
+(pro choice) and that human life begins before birth (pro life). This conflictive situation –
+referred to as ambivalence in relevant literature – has detrimental effects on political
+choices. For instance, ambivalence may enhance instability in candidates’ evaluations,
+delay the formation of vote intentions, and finally weaken predictions on vote choices.
+This being, literature has less looked at what may induce ambivalence, and especially on
+how informational context may affect it. Our paper aims to compensate for this lack, by
+assessing under which individual and contextual conditions ambivalence has more
+chances to be felt by citizens. Through a series of hierarchical estimations based on post-
+electoral data on Swiss direct democracy and original data retracing content of political
+campaigns, we will demonstrate that individual determinants (political sophistication,
+exposure to political campaigns, and heuristics) as well as political campaigning (intensity
+and negativism) strongly determine the existence of ambivalence.
+
+## Summary
+Investigate what the roots of ambivalence with regards to referendum votes is based on VOX data.
+
+## Excerpt
+
+"H1. The higher the level of individual sophistication for a
+given citizen, the lower its likelihood for ambivalence."
+
+"H4. the higher the amount of political information
+(campaign intensity) citizens are confronted to, the higher
+their likelihood for ambivalence."
+
+"Our measure takes
+into account those two conditions, and is computed as
+follows: firstly, for a given respondent, we measure the
+general level of agreement (or disagreement) with the pro
+and con arguments, through two additive scales ranging
+from À6 (strongly disagrees with arguments) to 6 (strongly
+agrees with arguments); secondly, we combine the two
+variables in an additive variable in order to detect ambiv-
+alent feelings. The new variable ranges from À12 (strongly
+disagrees with both pro and con arguments) to 12 (strongly
+agrees to both); by taking into account the absolute value
+on this additive scale we obtain a final variable that ranges
+from 0 (no ambivalent opinions) to 12 (highest ambiva-
+lence)." (p. 296)
+
+## Empirics
+
+dV: ambivalence
+
+Ambivalence measure:
+""
