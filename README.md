@@ -5,6 +5,10 @@ votingreferendums
 
 Paper prepared for Leuven-Montreal Winter School
 
+#### Abstract
+
+This paper studies voting behavior in national referendums in Switzerland, more concretely what motivates voters to vote counter to the vote recommendations issued by the Swiss federal government. Defining such an outcome variable allow comparative analyses of referendum voting across referendums and countries.  For this purpose, I use the full cumulation of the VOX post-referendum surveys that cover 245 national referendums held in Switzerland between 1981 and 2010. These surveys contain information on respondents’ voting behavior, their personal characteristics as well as referendum-specific information. I present initial results and discuss possible extensions.
+
 ### Code & Paper
 Repository contains code and 'knitted' Paper.
 
