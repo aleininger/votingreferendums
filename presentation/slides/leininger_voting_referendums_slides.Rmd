@@ -1,0 +1,246 @@
+---
+title: "Who votes against the government?"
+author: "Arndt Leininger, Hertie School of Governance"
+date: "17 January 2015"
+bibliography: votingreferendums.bib
+output: 
+  ioslides_presentation:
+    fig_caption: true 
+    logo: img/hsog_logoOnly.png
+    css: custom.css
+---
+
+```{r, echo=FALSE, message=FALSE}
+library("magrittr")
+#library("texreg")
+library("lme4")
+library('lattice')
+```
+
+```{r, echo=FALSE, message=FALSE}
+load('../../data/referendums.RData')
+load('../../analysis/modelsPaper.RData')
+tab_wonlost <- table(refs$niederlage, refs$typ)
+tab_wonlostprop <- round(prop.table(tab_wonlost, 2) * 100, 1)
+```
+
+# Motivation
+
+## Motivation | Voting is about more than elections...
+
+![Referendums per decade. Source: [@leininger_direct_2015]](img/figure1.png)
+
+## Motivation | A defeat and embarassment for the government...
+
+**Federal popular initiative "against mass immigration"** (*Eidgenössische Volksinitiative "Gegen Masseneinwanderung"*)
+
+![On 9 February 2014  50.3% voted for the initiative "Gegen Masseneinwanderung"](img/srf_masseneinwanderung.png)
+
+## Motivation | Referendums in Switzerland
+
+```{r, echo=FALSE, message=FALSE, fig.cap='Swiss national referendums, 1950-2012. Source of data: swissvotes.ch ', cache=TRUE}
+source('../../analysis/fig1.R')
+```
+
+## Motivation | Types of referendums {.smaller}
+
+1. Obligatory Referendums
+    - mandatory for constitutional changes or joing suprational organisations
+2. Facultative Referendums
+    - referendum on a law if 50,000 signature were collected within 100 days of pasage of law
+3. Initiative
+    - partial revision of the constitution, 100,000 signaturs
+4. Counter-Proposals
+    - government may put a counter-proposal on the ballot; initiative committee
+    may withdraw or uphold it's initiative
+
+## Motivation | Type
+```{r, echo=FALSE, message=FALSE, fig.cap='Number of referendums by type, 1981-2010. VoxIt data.', cache=TRUE}
+opar <- par(no.readonly = T)
+par(mar = c(2,2,2,2))
+barplot(height = types$freq, names.arg = types$type, cex.names = .8)
+par(opar)
+```
+
+## Motivation | Topic
+```{r, echo=FALSE, message=FALSE, fig.cap='Number of referendums by topic, 1981-2010. VoxIt data.', cache=TRUE}
+par(mar = c(2,10,2,2))
+barplot(height = topics$freq, names.arg = topics$topic, horiz = T, las = 1,
+        cex.names = .8)
+par(opar)
+```
+
+## Motivation | Voting against the government
+
+- *yes* and *no* can imply different things
+- recode to 1 = voted against government recommendation, 0 = followed government recommendation
+- allows comparative study of referendums of different and topics
+    - even across borders (given comparability of survey data)
+- drawback: government vote recommendation or other means of obtaining credible government position a prerequisite    
+
+## Motivation | Relevance
+
+1. A 'tool for populists'
+    - understanding motivation of those who voter against the government
+2.  Rise in government defeats
+    - understanding individual-level correlates as potential source of macro-level trends
+
+# Voting against the government
+
+## Voting against the government | Literature
+
+>- Small, scattered and little comparative literature on referendum voting.
+>- "When studying referendum behavior it is thus not warranted to indiscriminately draw on findings concerning electoral behavior." [@schoen_wahlen_2012, 514]
+>- "Decisions on 'big' issues [...] are not abstract exercises in constitutional design using copious information about the payoffs of alternative outcomes. Rather, operating in situations of great uncertainty, voters use heuristics provided by the political context in which the referendum occurs. Prime candidates are party identifications, party leader images and government performance evaluations." 
+[@clarke_referendum_2004, 355]
+
+
+## Voting against the government | Questions
+
+- Descriptive approach 
+    - obtaining correlations
+    - not identifying a determinant
+    
+- Questions
+    - e.g. *Are voters who are more knowledgeable about a proposal less likely to vote against it?*
+
+## Voting against the government | Explanatory Variables
+
+- Age
+- Gender
+- University education
+- Region: Swiss-German, Romandie, Italian Switzerland
+- Knows title and content of referendum, one of the two or neither
+- Type: Obligatory Referendum, Facultative Referendum, Counter-Proposal, Initiative
+- Governing Party Unity
+
+<!---
+- age: mean against-share per year (age) with 1st and 3rd quartile
+- gender: boxplot against-share by gender
+- uni: boxplot against-share by uni category
+- regiling: boxplot against-share by regiling
+- conx: boxplot against-share by category
+- type: boxplot against-share by type
+- gov unity: mean against-share by proportion
+--->
+
+# Data & Empirics
+
+## Data & Empirics | Data
+
+- VoxIt: cumulation of Vox post-referendum surveys <!---[@brunner_voxit:_????]--->
+- 85 nationaly representative surveys (*scrutins*) covering `r dim(projets)[1]` national referendums (*projets*) between `r min(projets$annee)` and `r max(projets$annee)` (`r ((dim(projets)[1] / dim(refs)[1]) * 100) %>% round(.,1)`% of referendums in that period). 
+- `r finalsize` observations based on `r length(unique(d$id))` unique respondents. 
+- On average `r  round(mean(projets$samplesize),0)` ($s$: `r round(sd(projets$samplesize),0)`) observations per referendum.
+
+## Data & Empirics | Model
+
+
+
+# Results
+
+## Results | Model estimates
+```{r, echo=FALSE, message=FALSE, cache=TRUE}
+mmFplot <- data.frame(fixef(mmF), confint(mmF, method = 'Wald'))
+        names(mmFplot) <- c('coef', 'li', 'ui')  # name vars
+        rownames <- 1:length(mmFplot$coef)
+        mmFplot$names <- c('Intercept', 'Age', 'Gender', 'University Degree', 
+        'Romandie', 'Italian Switzerland', 
+        'Knows title or content', 'Knows title and content',
+        'Facultative Referendum', 'Counter-Proposal', 
+        'Initiative', 'Gov. Party Unity') # rename rows
+        mmFplot$names <- factor(mmFplot$names, levels=mmFplot$names, ordered = T)
+        
+        intercept <- coef(mmF)$projetx[, 1]
+        
+        dotplot(names ~ coef, data = mmFplot,
+        panel = function(x, y) {
+        panel.abline(v = 0, lty = 2)
+        panel.xyplot(intercept, 1)
+        panel.dotplot(x, y, col = 'black', lty = 5)
+        panel.segments(mmFplot$li, as.numeric(y), mmFplot$ui,
+        as.numeric(y), lty = 1)
+        })
+```
+
+## Results | Age and Gender
+```{r, echo=FALSE, cache=TRUE}
+# prepare variables for subsetting
+projetvariables <- c('typex', 'motpcf')
+individualvariables <- c('age', 'agez', 'sexe', 'uni', 'conx', 'regiling')
+levelvariables <- c('projetx', 'id')
+```    
+
+```{r, echo=FALSE, fig.width=4, cache=TRUE}
+source('../../analysis/agegender.R')
+```        
+
+## Results | Education and Region
+
+```{r, echo=FALSE, fig.width=4, cache=TRUE}
+source('../../analysis/educregion.R')
+```      
+
+## Results | Referendum specific knowledge
+
+```{r, echo=FALSE, cache=TRUE}
+source('../../analysis/conx.R')
+```      
+
+## Results | Type & Governing Party Unity
+
+```{r, echo=FALSE, fig.width=4, cache=TRUE}
+source('../../analysis/typemotpcf.R')
+```      
+
+# Discussion 
+
+## Discussion | Preliminary Conclusions
+
+- Voting against the government provides a framework for comparative analysis of referendum voting. 
+- Initial results
+    - Less well-informed and educated more likely to vote against the government.
+    - Type and party signals seem to matter. 
+- Akin to incumbent vote 
+    - Allows testing of whether and when classic predictors of electoral behavior 'work'
+    
+## Discussion | Extending the model {.smaller}
+
+- Knowledge of the government's position
+- Likely impact of the proposal
+- Party identification
+    - party identification with governing party
+    - interaction with party *paroles*
+- Left-right self-placement
+- Campaigns
+    - hard to measure
+    - available measures focus on limited timeframe
+- Interactions with time: do correlations change over time?     
+
+## Discussion | Who are the deviators?
+
+**How could one, among the voters 'defying' the government, for instance, distinguish 'reasoned' from 'populist deviators'?**
+
+- e.g. 'reasoned' deviators are informed about topic and can provide arguments
+- e.g. 'populist' deviators have no party identification
+- not necessarily exhaustive categories
+
+## Discussion | What explains the trend?
+
+**How can an analysis of individual voting behavior contribute to explaining the macro-level trend in rising numbers of government defeats?**
+
+- How are individual- and macro-level predictors trending? 
+    - e.g. share of population with university degree 
+    - or type of referendums (likely not the initiative)
+    - or decrease in party identification / satisfaction with democracy
+    - not always straightforward: is age an age or generation 'effect'?
+
+# Thank you! {#thanks}
+
+https://github.com/aleininger/votingreferendums
+
+a.leininger at phd.hertie-school dot org
+
+[`@`a_leininger](https://twitter.com/a_leininger)
+
+## References
