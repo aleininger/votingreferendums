@@ -10,14 +10,14 @@ output:
     css: custom.css
 ---
 
-```{r, echo=FALSE, message=FALSE}
+```{r packages, echo=FALSE, message=FALSE}
 library("magrittr")
 #library("texreg")
 library("lme4")
 library('lattice')
 ```
 
-```{r, echo=FALSE, message=FALSE}
+```{r data, echo=FALSE, message=FALSE}
 load('../../data/referendums.RData')
 load('../../analysis/modelsPaper.RData')
 tab_wonlost <- table(refs$niederlage, refs$typ)
@@ -126,16 +126,19 @@ par(opar)
 
 # Data & Empirics
 
-## Data & Empirics | Data
+## Data & Empirics
+
+*Data*
 
 - VoxIt: cumulation of Vox post-referendum surveys <!---[@brunner_voxit:_????]--->
 - 85 nationaly representative surveys (*scrutins*) covering `r dim(projets)[1]` national referendums (*projets*) between `r min(projets$annee)` and `r max(projets$annee)` (`r ((dim(projets)[1] / dim(refs)[1]) * 100) %>% round(.,1)`% of referendums in that period). 
 - `r finalsize` observations based on `r length(unique(d$id))` unique respondents. 
 - On average `r  round(mean(projets$samplesize),0)` ($s$: `r round(sd(projets$samplesize),0)`) observations per referendum.
 
-## Data & Empirics | Model
+*Model*
 
-
+- Cross-classified logistic random-effects model
+    - referendums and respondents are cross-classified higher-level units
 
 # Results
 
